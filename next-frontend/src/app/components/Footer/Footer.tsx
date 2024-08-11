@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Footer(){
     return(
-        <footer className=" container ">
-            <div className="container">
+        <footer className=" container pt-5 ">
+            
 					<div className="row">
 						<div className="col-sm-12 text-center">
 							<span className="text-white">© 2024 Sayantan Choudhury - All Rights Reserved. </span>
@@ -13,7 +13,7 @@ export default function Footer(){
 							<Link href="/contact" className="text-white"><span className="text-white"> Get in touch with me <i className="icon arrow_right"></i></span></Link>
 						</div>
 					</div>
-				</div>
+				
         </footer>
     )
 }

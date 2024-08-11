@@ -25,7 +25,7 @@ const Header = ()=>{
                     <Link href='/blog'>Blog</Link>
                 </li>
                 <li className='text-blue-500 hover:-translate-y-2 duration-500 transition-all hover:text-cyan-400'>
-                    <Link href='/'>Contact</Link>
+                    <Link href='/contact'>Contact</Link>
                 </li>
 
             </ul>

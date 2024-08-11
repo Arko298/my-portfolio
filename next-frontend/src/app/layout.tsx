@@ -18,8 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <main className="flex min-h-screen flex-col items-center justify-between p-12 bg-[url('/images/Background_img.jpg')] bg-no-repeat bg-cover">
+      <body className={inter.className}>{/**bg-[url('/images/Background_img.jpg')]*/}
+        <main className="flex min-h-screen flex-col items-center justify-between p-12 bg-gray-600 bg-no-repeat bg-cover">
           <NavBar />
           {children}
           <Footer/>
