@@ -4,6 +4,7 @@ import LetsConnect from "@/components/letsConnect/LetsConnect"
 
 
 
+
 export default function Home() {
   return (
     <>
@@ -29,6 +30,7 @@ export default function Home() {
         <LetsConnect/>
         </div>
         </div>
+        
        
       
     

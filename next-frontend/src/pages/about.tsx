@@ -1,8 +1,8 @@
 "use client";
-import AnimatedText from "../../components/AnimatedText/AnimatedText";
-import LetsConnect from "../../components/letsConnect/LetsConnect";
+import AnimatedText from "../AnimatedText/AnimatedText";
+import LetsConnect from "../letsConnect/LetsConnect";
 
-import SkillBar from "../../components/SkillBar/SkillBar";
+import SkillBar from "../SkillBar/SkillBar";
 
 export default function About(){
   const Roleskills = [
