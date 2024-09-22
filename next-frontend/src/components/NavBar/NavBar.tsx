@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 
-const Header = ()=>{
+const NavBar = ()=>{
     return (
         <header className='py-6 px-4 container mx-auto text-xl flex flex-nowrap  items-center justify-between'>
             <div className='flex items-center w-full md:2/3'>
@@ -32,4 +32,4 @@ const Header = ()=>{
         </header>
     );
 };
-export default Header;
+export default NavBar;

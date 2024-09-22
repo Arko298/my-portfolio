@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import LetsConnect from "@/app/components/letsConnect/LetsConnect"
+import LetsConnect from "@/components/letsConnect/LetsConnect"
 
 
 
