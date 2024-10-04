@@ -1,4 +1,6 @@
+'use client';
 import React,{useEffect,useState} from "react";
+
 interface SkillBarProps{
     skill: string;
     percentage: number
