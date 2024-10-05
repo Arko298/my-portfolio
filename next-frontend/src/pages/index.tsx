@@ -1,25 +1,24 @@
-import MainLayout from "@/layout/MainLayout"
-import About from "./about"
-import Projects from "./project"
-import Contact from "./contact"
-import { BrowserRouter as Router, Route,Routes } from "react-router-dom"
+import MainLayout from "@/layout/MainLayout";
+import About from "./about";
+import Projects from "./project";
+import Contact from "./contact";
+
 // import ScrollToTopButton from "@/components/ScrollToTop"
-import Hero from "./hero"
+import Hero from "../components/hero";
+import Link from "next/link";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
-
-const MyApp = () => {
+const Home = () => {
   return (
-    <Router>
-      <MainLayout>
-        <Routes>
-          
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        {/* <ScrollToTopButton/> */}
-      </MainLayout>
-    </Router>
-  )
-}
-export default MyApp
+    <>
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+      {/* <ScrollToTopButton/> */}
+    </>
+  );
+};
+export default Home;

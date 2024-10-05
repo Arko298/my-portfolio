@@ -2,12 +2,16 @@
 import React, { useState, useEffect } from 'react';
 
 const AnimatedText = () => {
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+  
   const textArray = ["Backend Developer", "MERN stack Developer", "DevOps Engineer"]; // Array of texts to display
   const [currentText, setCurrentText] = useState("");
   const [textIndex, setTextIndex] = useState(0);
   const [letterIndex, setLetterIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
 
   useEffect(() => {
     const typingSpeed = isDeleting ? 100 : 200; // Speed of typing and deleting
