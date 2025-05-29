@@ -1,9 +1,9 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 
 const AnimatedText = () => {
   
-  const textArray = ["Backend Developer", "MERN stack Developer", "DevOps Engineer"]; // Array of texts to display
+  const textArray = useMemo(()=>["Backend Developer", "MERN stack Developer", "DevOps Engineer"],[]); // Array of texts to display
   const [currentText, setCurrentText] = useState("");
   const [textIndex, setTextIndex] = useState(0);
   const [letterIndex, setLetterIndex] = useState(0);

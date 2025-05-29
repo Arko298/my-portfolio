@@ -1,9 +1,9 @@
 const sharedClasses = {
     card: 'bg-card p-4 rounded-lg shadow-md',
-    primaryColor: 'text-primary',
+    primaryColor: 'text-primary text-white',
     primaryColorHover: "hover:text-green-600",
     secondaryColor: 'bg-secondary text-secondary-foreground px-3 py-1 rounded',
-    mutedForeground: 'text-muted-foreground',
+    mutedForeground: 'text-muted-foreground py-3',
     text: 'text-white'
 
   }

@@ -1,32 +1,32 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+// import '../styles/globals.css'; // Import global styles
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "A page for my portfolio",
+  title: "Sayantan Choudhury's Portfolio",
+  description: "Portfolio of Sayantan Choudhury, a MERN stack and DevOps engineer",
 };
+
 type MainLayoutProps = {
   children: React.ReactNode;
 };
+
 export default function MainLayout({ children }: MainLayoutProps) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        {/**bg-[url('/images/Background_img.jpg')]*/}
-        <div className="flex min-h-screen">
+    <div lang="en">
+      <div className={inter.className}>
+        <div className="flex min-h-screen bg-gray-900 text-white">
           <NavBar />
-          <main className="stack min-h-screen flex-col items-center justify-between p-12 bg-gray-400 bg-no-repeat bg-cover">
+          <main className="flex-1 p-6 md:p-12 overflow-y-auto">
             {children}
             <Footer />
           </main>
-          
         </div>
-      </body>
-    </html>
+      </div>
+    </div>
   );
 }
