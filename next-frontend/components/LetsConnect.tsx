@@ -2,7 +2,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { sanityClient } from '@/lib/sanity';
+import { sanityClient } from '../lib/sanity';
 
 interface SocialLink {
   _id: string;

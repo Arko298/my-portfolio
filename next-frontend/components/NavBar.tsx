@@ -1,4 +1,4 @@
-import sharedClasses from "@/constants/constants";
+import sharedClasses from "../constants/constants";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,27 +13,27 @@ const NavBar = () => {
       <nav>
         <ul>
           <li>
-            <Link href="/" className={`block py-2 ${sharedClasses.text} ${sharedClasses.primaryColorHover}`}>
+            <Link href="/" className={`block py-2 ${sharedClasses.text} hover:text-green-600`}>
               Home
             </Link>
           </li>
           <li>
-            <Link href="/about" className={`block py-2 ${sharedClasses.primaryColor} ${sharedClasses.primaryColorHover}`}>
+            <Link href="/about" className={`block py-2 ${sharedClasses.primaryColor} hover:text-green-600`}>
               About
             </Link>
           </li>
           <li>
-            <Link href="/projects" className={`block py-2 ${sharedClasses.primaryColor} ${sharedClasses.primaryColorHover}`}>
+            <Link href="/projects" className={`block py-2 ${sharedClasses.primaryColor} hover:text-green-600`}>
               Projects
             </Link>
           </li>
           {/* <li>
-            <Link href="/stack" className={`block py-2 ${sharedClasses.primaryColor} ${sharedClasses.primaryColorHover}`}>
+            <Link href="/stack" className={`block py-2 ${sharedClasses.primaryColor} hover:text-green-600`}>
               Stack
             </Link>
           </li> */}
           <li>
-            <Link href="/contact" className={`block py-2 ${sharedClasses.primaryColor} ${sharedClasses.primaryColorHover}`}>
+            <Link href="/contact" className={`block py-2 ${sharedClasses.primaryColor} hover:text-green-600`}>
               Connect
             </Link>
           </li>

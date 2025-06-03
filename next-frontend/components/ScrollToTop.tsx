@@ -1,3 +1,4 @@
+"use client";
 import { TiArrowUp } from "react-icons/ti";
 
 const ScrollToTopButton = () => {

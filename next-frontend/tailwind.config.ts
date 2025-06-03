@@ -2,7 +2,8 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    './app/**/*.{ts,tsx,js,jsx,mdx}',
+    './components/**/*.{ts,tsx,js,jsx,mdx}',
     
   ],
   theme: {

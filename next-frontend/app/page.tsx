@@ -1,4 +1,4 @@
-import Projects from "./project/page";
+import Projects from "./projects/page";
 import ScrollToTopButton from "../components/ScrollToTop";
 import Hero from "../components/hero";
 

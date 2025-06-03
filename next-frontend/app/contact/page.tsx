@@ -1,5 +1,5 @@
 'use client';
-import { sanityClient } from '@/lib/sanity';
+import { sanityClient } from '../../lib/sanity';
 import { useState } from 'react';
 
 const inputClasses = 'w-full px-4 py-3 rounded-lg border border-blue-400 focus:outline-none focus:ring focus:ring-blue-500 transition duration-200 hover:border-blue-300';

@@ -26,9 +26,9 @@ export default async function Projects() {
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <h3 className="text-center font-header text-3xl font-semibold uppercase text-white sm:text-4xl lg:text-5xl">
+      {/* <h3 className="text-center font-header text-3xl font-semibold uppercase text-white sm:text-4xl lg:text-5xl">
         Check out my Portfolio
-      </h3>
+      </h3> */}
       <h4 className="pt-6 text-center font-header text-xl font-medium text-gray-300 sm:text-2xl lg:text-3xl">
         Here’s what I have done
       </h4>
