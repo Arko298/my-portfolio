@@ -105,7 +105,7 @@ export default async function Projects() {
               {/* Project Image */}
               <div className="relative h-48 overflow-hidden">
                 <Image
-                  src={project.images?.[0] ? urlFor(project.images[0]).width(400).height(300).url() : project.images?.[0]?.src || '/placeholder.svg?height=300&width=400'}
+                  src={project.images?.[0] ? urlFor(project.images[0]).width(400).height(300).url() : project.images?.[0]?.src || '/placeholder.svg?height=300&width=40'}
                   alt={project.images?.[0]?.alt || project.title}
                   width={400}
                   height={300}
@@ -211,7 +211,7 @@ export default async function Projects() {
             Interested in working together?
           </h3>
           <p className="text-gray-300 max-w-md mx-auto">
-            I'm always open to discussing new opportunities and exciting projects.
+            I&apos;m always open to discussing new opportunities and exciting projects.
           </p>
           <Link href="/contact">
             <button className="group flex items-center gap-2 mx-auto px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25 hover:scale-105">
