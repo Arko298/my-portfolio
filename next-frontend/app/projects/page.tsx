@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Project } from '../../lib/sanity.types';
 import { ExternalLink, Github, Calendar, ArrowRight } from 'lucide-react';
-
+export const dynamic = 'force-dynamic';
 export default async function Projects() {
   let projects: Project[] = [];
   try {

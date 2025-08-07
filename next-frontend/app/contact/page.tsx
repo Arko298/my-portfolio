@@ -42,8 +42,8 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'sayantan@example.com',
-      href: 'mailto:sayantan@example.com'
+      value: 'choudhurysayantan03@gmail.com',
+      href: 'mailto:choudhurysayantan03@gmail.com'
     },
     {
       icon: Phone,
@@ -60,8 +60,8 @@ export default function Contact() {
   ];
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/Arko298/', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/sayantan-choudhury-0a5b20223/', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
   ];
 
