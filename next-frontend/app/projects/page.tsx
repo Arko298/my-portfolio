@@ -90,7 +90,7 @@ export default async function Projects() {
           </h1>
           
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            Here's what I've been working on. Each project represents a unique challenge and learning experience.
+            Here&apos;s what I&apos;ve been working on. Each project represents a unique challenge and learning experience.
           </p>
         </div>
 
