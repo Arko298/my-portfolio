@@ -4,7 +4,9 @@ export interface Project {
   title: string;
   slug: { current: string };
   description: string;
-  images: { asset: { _ref: string }; alt: string }[];
+  images: {
+    src: string; asset: { _ref: string }; alt: string 
+}[];
   projectUrl?: string;
   githubUrl?: string;
   startDate?: string;
